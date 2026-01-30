@@ -1,0 +1,21 @@
+# Gestor de Base de Datos de Vulnerabilidades
+# Dependencias del proyecto
+
+# Base de datos
+pymongo==4.6.1              # Driver de MongoDB para Python
+
+# Variables de entorno
+python-dotenv==1.0.0        # Carga variables desde archivo .env
+
+# Utilidades de fecha y tiempo (incluido en Python estándar)
+# datetime - No requiere instalación
+
+# Opcional: Para mejorar la experiencia en consola
+colorama==0.4.6             # Colores en terminal (Windows/Linux/Mac)
+tabulate==0.9.0             # Tablas formateadas en consola
+
+# Opcional: Para validación avanzada
+python-dateutil==2.8.2      # Parsing avanzado de fechas
+
+# Opcional: Para exportación de datos
+openpyxl==3.1.2             # Exportar a Excel
