@@ -1,6 +1,6 @@
 def get_vulnerability_by_id(db, cve_id):
     """Obtener vulnerabilidad por CVE_ID"""
-    vuln = db.vulnerabilities.find_one({"CVE_ID": cve_id})
+    vuln = db.vulnerabilities.find_one({"cve_id": cve_id})
     if vuln:
         vuln["_id"] = str(vuln["_id"])  # convertir ObjectId a string
         return vuln
